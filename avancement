@@ -1,0 +1,26 @@
+
+# OK Fonctionnalités nécessaires
+#- OK - Une matrice de cellules qui peuvent être soit vivantes, soit mortes. Le moteur de jeu doit pouvoir gérer une matrice de NxN cellules, N étant défini pendant l’utilisation du programme.
+#- OK - Le code pour gérer les trois règles du jeu qui déterminent l’évolution des cellules.
+#- OK - Une fonctionnalité permettant d’initialiser une grille aléatoirement.
+
+#Fonctionnalités additionnelles
+#- La possibilité de changer les règles du jeu.
+#- La possibilité d’avoir une grille de cellules virtuellement infinie avec unec matrice dont la taille évolue avec le temps en fonction des cellules qui setrouvent à l’intérieur.
+
+#Fonctionnalités nécessaires
+#- OK Un affichage d’une grille de 50x50 cellules minimum, dans la console ou avec une interface graphique (pygame, tkinter, ...). L’interface graphique est évidemment recommandée, mais elle sera un peu plus compliquée à mettre en place.
+#- Un moyen de modifier l’état des cellules dans la grille présentée à l’utilisateur, soit par une entrée clavier, soit avec la souris directement (nécessite une interface graphique).
+# OK La possibilité de voir l’évolution de la grille de cellules dans le temps en avançant à l’étape suivante ou en laissant le jeu se dérouler sans interruption.
+#Fonctionnalités additionnelles
+#- La possibilité de zoomer ou dézoomer dans la grille pour voir plus ou moins de cellules.
+#- La possibilité de se déplacer dans la grille pour n’observer qu’une partie.
+#- La possibilité de positionner des structures complexes (voir Partie I) à un endroit donné dans la grille.
+
+#Fonctionnalités nécessaires
+#- Sauvegarder la grille dans un fichier.
+#- Charger une grille depuis un fichier dans le programme.
+
+#Fonctionnalités nécessaires
+#- Une fonctionnalité permettant de calculer le temps de calcul pour une étape du jeu, sans compter l’affichage, sur une grille potentiellement très grande.
+#- La conception d’un algorithme le mieux optimisé possible pour gérer des grilles de très grandes tailles.
